@@ -1,0 +1,13 @@
+{
+  "name": "weplay-presence",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "debug": "4.1.1",
+    "redis": "2.8.0",
+    "socket.io-emitter": "3.1.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
