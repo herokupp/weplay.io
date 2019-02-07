@@ -5,7 +5,7 @@ var debug = require('debug')('weplay-web');
 var express = require('express');
 var app = express();
 
-var port = process.env.WEPLAY_PORT || 3000;
+var port = process.env.PORT || 3000;
 
 var redis = require('./redis')();
 
