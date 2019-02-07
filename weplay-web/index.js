@@ -11,7 +11,7 @@ var redis = require('./redis')();
 
 process.title = 'weplay-web';
 
-app.listen(port);
+app.listen(port,"0.0.0.0");
 console.log('listening on *:' + port);
 
 app.engine('mustache', mustache());
